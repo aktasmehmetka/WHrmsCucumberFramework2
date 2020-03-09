@@ -1,0 +1,146 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-09T02:53:00.416Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8208345500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Invalid Login",
+        "description": "",
+        "id": "login;invalid-login",
+        "after": [
+          {
+            "result": {
+              "duration": 637221000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 83162700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I open bowser and navigated to the HRMS",
+            "match": {
+              "location": "LoginPageSteps.i_open_bowser_and_navigated_to_the_HRMS()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 126276300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I see syntax logo",
+            "match": {
+              "location": "LoginPageSteps.i_see_syntax_logo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 325461700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter invalid username valid passowrd",
+            "match": {
+              "location": "LoginPageSteps.i_enter_invalid_username_valid_passowrd()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 490413600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginPageSteps.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50063800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I see error message",
+            "match": {
+              "location": "LoginPageSteps.i_see_error_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I close browser",
+            "match": {
+              "location": "LoginPageSteps.i_close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sprint1"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@sprint1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 10
+        }
+      }
+    ]
+  }
+]
